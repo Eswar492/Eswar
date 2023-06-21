@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            margin: 0px;
+            background: linear-gradient(30deg,cornflowerblue,darkblue,darkslateblue);
+        }
+        header{
+            background:linear-gradient(45deg,darkslategray,darkred);
+            color:white;
+            text-align:center;
+           padding:5px; 
+           margin:none;
+        }
+        h1{
+            margin:0px
+        }
+        aside{
+        background:linear-gradient(45deg, darkred,black);
+        width:200px;
+        height:100vh;
+        float: left;
+        position:sticky;
+        top:0px;
+        float:left;
+         }
+        aside a{
+        display:block;
+        text-align: center;
+        text-decoration: none;
+        margin:0px 0px 40px 0px;
+        font-size:28px;
+        color:orangered;
+    }  
+    aside a:hover{
+        text-shadow: 0px 0px 10px white;
+        font-size: 40px;
+    }
+    img{
+        width:100px;
+        height:100px;
+        border-radius: 100%;
+        padding:3px;
+        margin:30px 40px;
+        border:1px solid white
+    }
+    img:hover{
+        box-shadow: 0px 0px 10px yellow;
+        width:150px;
+        height:150px;
+        margin:20px;
+    }
+    article{
+        transition: transform 2s;
+    }
+    article:hover{
+        background:linear-gradient(45deg,black,orangered);
+        color:white
+    }
+    #odd{
+        background:darkmagenta;
+        color:white;
+        width:50%;
+        text-align: center;
+        padding:20px;
+        margin:20px auto;
+        border-radius: 30px;
+    }
+    #odd:hover{
+        transform:scale(1.2,1.2);
+        margin-top:20px;
+    }
+    #even{
+        background-color: darksalmon;
+        width:60%;
+        padding:20px;
+        text-align:center;
+        margin:20px auto;
+        border-radius: 30px;
+    }
+    #even:hover{
+        transform:scale(1.2,1.2);
+        margin-top:20px
+    }
+    h3{
+        background:white;
+        color:black;
+        width:150px;
+        font-size: 30px;
+        border-radius: 10px;
+    }
+    footer{
+        background:limegreen;
+        text-align: center;
+        padding:10px;
+        color:white
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Know About Eswar</h1>
+    </header>
+    <aside>
+            <nav>
+            <img src="images/My-image.jpg" alt="">
+            <a href="Profile.html">Home</a> <br>
+            <a href="#about">About</a>
+            <a href="#Education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#Experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </aside>
+
+    <section>
+        <article id="odd">
+            <H3 id="about">About</H3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestiae natus itaque cupiditate nam ea adipisci consequatur culpa placeat quam eaque aperiam in, ducimus similique repudiandae perspiciatis ut veritatis perferendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi blanditiis deleniti ipsum laborum, corrupti dolorum rerum reprehenderit necessitatibus corporis eaque id. Repellendus, molestias eligendi.</p>
+        </article>
+        <article id="even">
+            <h3 id="Education">Education</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestiae natus itaque cupiditate nam ea adipisci consequatur culpa placeat quam eaque aperiam in, ducimus similique repudiandae perspiciatis ut veritatis perferendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi blanditiis deleniti ipsum laborum, corrupti dolorum rerum reprehenderit necessitatibus corporis eaque id. Repellendus, molestias eligendi.</p>
+        </article>
+        <article id="odd">
+            <h3 id="skills">
+                Skills
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestiae natus itaque cupiditate nam ea adipisci consequatur culpa placeat quam eaque aperiam in, ducimus similique repudiandae perspiciatis ut veritatis perferendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi blanditiis deleniti ipsum laborum, corrupti dolorum rerum reprehenderit necessitatibus corporis eaque id. Repellendus, molestias eligendi.</p>
+        </article>
+        <article id="even">
+            <h3 id="Experience">Experience</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestiae natus itaque cupiditate nam ea adipisci consequatur culpa placeat quam eaque aperiam in, ducimus similique repudiandae perspiciatis ut veritatis perferendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi blanditiis deleniti ipsum laborum, corrupti dolorum rerum reprehenderit necessitatibus corporis eaque id. Repellendus, molestias eligendi.</p>
+        </article>
+        <article id="odd">
+            <h3 id="contact">Contact</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed molestiae natus itaque cupiditate nam ea adipisci consequatur culpa placeat quam eaque aperiam in, ducimus similique repudiandae perspiciatis ut veritatis perferendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi blanditiis deleniti ipsum laborum, corrupti dolorum rerum reprehenderit necessitatibus corporis eaque id. Repellendus, molestias eligendi.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Designed and Developed by ESWAR</p>
+    </footer>
+</body>
+</html>

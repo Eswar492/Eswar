@@ -1,0 +1,55 @@
+
+body{
+        margin:0px;
+     
+        background-image:url('images/background1.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        color:white;
+        font-family:'comic sans ms',serif;
+    }
+    fieldset {
+        color:whitesmoke;
+        width:95%;
+        background-color: rgba(0,0,0,0.6);
+        background-size:cover;
+        height:100vh;
+        margin:auto auto;
+    }
+   
+.img{
+   width:270px;
+   height:270px;
+   padding:10px;
+   opacity: 0.7; 
+   border-radius: 50% 50%;
+   border:2px solid black;
+   box-shadow:0px 0px 10px yellowgreen;
+   position:absolute;
+   top:20%;
+   left:15%;  background: white;
+}
+.img:hover{
+    width:300px;
+   height:300px;
+   opacity: 1;
+}
+.contant{
+position: absolute;
+top:25%;
+left:35%;
+}
+span{
+    padding: 20px 0px 20px 10px;
+    margin:0px;
+}
+.clickme{
+    text-decoration: none;
+    background-color:yellowgreen;
+    padding:10px;
+    border-radius: 20px;
+}
+.clickme:hover{
+    box-shadow: 0px 0px 10px white;
+}
